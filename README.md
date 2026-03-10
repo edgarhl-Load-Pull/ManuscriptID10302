@@ -27,6 +27,10 @@ Department of Electronics and Telecommunications
 Center for Scientific Research and Higher Education at Ensenada (CICESE)
 Ensenada, Mexico
 
+José Raúl Loo-Yau
+Center for Research and Advanced Studies of the National Polytechnic Institute (Cinvestav)
+Guadalajara Campus, Guadalajara, Mexico
+
 Manuel Alejandro Pulido-Gaytan
 Department of Electronics and Telecommunications
 Center for Scientific Research and Higher Education at Ensenada (CICESE)
@@ -36,10 +40,6 @@ Jaime Sánchez-García
 Department of Electronics and Telecommunications
 Center for Scientific Research and Higher Education at Ensenada (CICESE)
 Ensenada, Mexico
-
-José Raúl Loo-Yau
-Center for Research and Advanced Studies of the National Polytechnic Institute (Cinvestav)
-Guadalajara Campus, Guadalajara, Mexico
 
 ## Repository Description
 This repository contains the MATLAB scripts and datasets required to reproduce the figures and results presented in the paper.
