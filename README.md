@@ -1,13 +1,12 @@
-Paper Information
+## Paper Information
 
-Title:
+## Title:
 Comparison of Two Harmonic Load-Pull Systems Using Frequency-Domain and Time-Domain Measurements for Evaluating GaN Transistor Output Power and Efficiency
 
-Manuscript ID:
+## Manuscript ID:
 10302
 
-Authors and Affiliations
-
+## Authors and Affiliations
 Edgar Hernández-Limón
 Department of Electronics and Telecommunications
 Center for Scientific Research and Higher Education at Ensenada (CICESE)
@@ -42,15 +41,13 @@ José Raúl Loo-Yau
 Center for Research and Advanced Studies of the National Polytechnic Institute (Cinvestav)
 Guadalajara Campus, Guadalajara, Mexico
 
-Repository Description
-
+## Repository Description
 This repository contains the MATLAB scripts and datasets required to reproduce the figures and results presented in the paper.
-
 All datasets correspond to measurements obtained from harmonic load-pull experiments performed on a GaN transistor using both frequency-domain and time-domain active harmonic load-pull systems.
 
 Each script generates specific figures or results reported in the manuscript.
 
-Data Files
+## Data Files
 
 Contour_Pow_data.mat
 Dataset used to generate the output power load-pull contours.
@@ -70,7 +67,7 @@ Dataset corresponding to the second-harmonic reactance sweep performed with the 
 SecondHarmonicSweep_H3Open_Eopt_data.mat
 Dataset corresponding to the second-harmonic reactance sweep performed with the load optimized for maximum drain efficiency and the third harmonic open-circuited.
 
-MATLAB Scripts
+## MATLAB Scripts
 
 Each MATLAB script generates the corresponding figures and results using the provided datasets.
 
@@ -92,20 +89,25 @@ Generates the comparison of output power and drain efficiency versus second-harm
 reproduce_H2_sweep_Eopt.m
 Generates the comparison of output power and drain efficiency versus second-harmonic reactance when the load is optimized for maximum drain efficiency.
 
-Instructions to Reproduce the Results
-
+## Instructions to Reproduce the Results
 Download or clone the repository.
 
 Open MATLAB.
-
 Run the desired script depending on the figure or result to be reproduced.
 
 Example:
-
-reproduce_power_contours
-
-or
-
-reproduce_H2_sweep_Popt
+run('reproduce_power_contours.m')
 
 Each script will load the required dataset and generate the corresponding figures presented in the paper.
+
+## Software Requirements
+The scripts were developed and tested using the following software environment:
+
+MATLAB R2018
+RF Toolbox (RFTools)
+
+The RF Toolbox is required for handling RF network parameters and impedance-related calculations used in the load-pull data processing.
+
+##Notes
+All scripts rely only on the datasets included in this repository and the standard MATLAB environment with RF Toolbox support.
+To reproduce the figures, ensure that MATLAB R2018 (or a compatible newer version) with RF Toolbox installed is available.
